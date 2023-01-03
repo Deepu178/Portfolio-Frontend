@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
       <nav className='app__navbar'>
         <div className='app__navbar-logo'>
-            <img src={images.logo} alt="logo"/>
+            <a href='https://deependra-portfolio.netlify.app/'>Portfolio</a>
         </div>
         <ul className='app__navbar-links'>
             {['home', 'about', 'work', 'skills', 'contact'].map((item)=>(
