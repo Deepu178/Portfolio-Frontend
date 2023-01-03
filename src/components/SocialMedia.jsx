@@ -5,7 +5,7 @@ export default function SocialMedia() {
   return (
     <div className='app__social'>
         <div>
-          <a href='https://www.twitter.com/deepuReact' > <BsTwitter/>
+          <a href='https://www.twitter.com/deepuReact' > <BsTwitter />
           </a>
         </div>
         <div>
