@@ -9,7 +9,7 @@ export default function NavigationDots({active}) {
                     key={item + index}
                     className="app__navigation-dot"
                     style={active===item?{backgroundColor:'#313BAC'}:{}}
-                   >{item}</a>
+                   >{}</a>
             ))}
     </div>
   )
